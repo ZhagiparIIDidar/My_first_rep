@@ -19,8 +19,8 @@ a1 = a.reversed()
 if a == a1: print("Polindrom")
 else: print("Not pol")
 """
-
-""" a = int(input())
+""" 
+a = int(input())
 a1 = int(input())
 
 sum(range(a1*10000))

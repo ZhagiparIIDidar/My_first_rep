@@ -31,7 +31,7 @@ def countdown_generator(n):
 # print(squares_generator(N))
 
 # n = int(input())
-# for i in even_numbers_generator():
+# for i in even_numbers_generator(n):
 #     print(i)
 
 # a = int(input())
