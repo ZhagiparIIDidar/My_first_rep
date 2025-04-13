@@ -131,11 +131,12 @@ def game_loop():
                     pygame.quit()
                     quit()
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_q:
+                    if event.key == pygame.K_q:     
                         pygame.quit()
                         quit()
                     if event.key == pygame.K_r:
                         running = True
+                        game_loop()
                         return
 
     while running:
