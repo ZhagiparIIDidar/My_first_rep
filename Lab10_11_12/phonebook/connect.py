@@ -111,4 +111,4 @@ def delete_entry():
     except Exception as e:
         print("Ошибка при удалении:", e)
 if __name__=='__main__':
-    insert_from_csv("Lab10_11_12\\phonebook.csv")
+    create_table()
